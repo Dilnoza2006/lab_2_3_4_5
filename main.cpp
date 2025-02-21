@@ -564,4 +564,363 @@ cout << "Enter a three-digit integer: ";
     case 2: cout<<"You got 50% scholarship";break;
     case 0: cout<<"You got no scholarship";break;
   }}*/
-}
+
+
+
+
+
+
+//lab5
+    //problem1.1
+
+
+    // for (int i = 1; i <= 10; i++) {
+    //     cout<< i ;
+    //
+    // }
+    // return 0;
+
+    //problem1.2
+    // cout<<"enter the number";
+    // int number;
+    // cin>>number;
+    // for(int i=1;i<= number  ;i++) {
+    //     cout<<i <<" ";
+    // }
+
+    //problem1.3
+    // int sum = 0;
+    // for (int i = 1; i <= 10; i++) {
+    //     sum=sum+i;
+    // }
+    // cout << sum << endl;
+
+    //problem1.4
+    // int sum = 0, num;
+    // cout << "Enter a number: ";
+    // cin >> num;
+    // for (int i = 1; i <= num; i++) {
+    //     sum += i;
+    // }
+    // cout << sum << endl;
+    // return 0;
+
+    //problem1.5
+    // float avg;
+    // float sum = 0.0;
+    // for (int i = 0; i <= 10; i++) {
+    //     sum = sum + i;
+    // }
+    // avg = sum / 10;
+    // cout <<avg<<endl;
+    // return 0;
+
+   // pronlem1.6
+    // float avg;
+    // int num ;
+    // float sum = 0.0;
+    // cout << "Enter the number : ";
+    // cin >> num;
+    // for (int i = 1; i <= num; i++) {
+    //     sum = sum + i;
+    // }
+    // avg = sum / num;
+    // cout <<avg<<endl;
+    // return 0;
+
+    //problem2.1
+    // for (int i = 1; i <= 10; i+=2) {
+    //     cout << i<<" " ;
+    // }
+
+    //problem2.2
+    // for (int i = 2; i <= 10; i+=2) {
+    //     cout<< i<<" ";
+    // }
+
+    //problem2.3
+    // int num;
+    // cout << "Enter a number: ";
+    // cin >> num;
+    // for (int i = 1; i <= num; i+=2) {
+    //     cout << i <<" ";
+    // }
+
+    //problem2.4
+    // int num;
+    // cin >> num;
+    // for (int i = 2; i <= num; i+=2) {
+    //     cout << i <<" ";
+    // }
+
+    //problem2.5
+    // for (int i = 10; i <= 100; i+=10) {
+    //     cout << i << endl;
+    // }
+
+    //problem2.6
+    // int number;
+    // cout << "Enter a number: ";
+    // cin >> number;
+    // for (int i = 1; i <= number; i++) {
+    //     if (i % 10 == 0) {
+    //         cout << i << " ";
+    //     }
+    //
+    // }
+    //problem3
+    // int counter = 0;
+    // for (int i = 65; i <= 90; ++i) {
+    //     cout<<static_cast<char>(i)<<" ";
+    //     counter++;
+    //     if (counter%5 ==0) {
+    //         cout<<endl;
+    //     }
+    // }
+    // if (counter%5 !=0) {
+    //     cout<<endl;
+    // }
+    // return 0;
+
+    //problem4
+//     int N;
+//     cout << "Enter the non negative number: ";
+//     cin >> N;
+//     if (N < 0) {
+//         cout<<" Factorialof a negative numberis not defined.";
+//
+//     }
+//     else {
+//         int factorial = 1;
+//         for (int i = N; i >= 1; i--) {
+//             factorial *= i;
+//
+//         }
+//         cout << "The factorial of the given number is: " << factorial << endl;
+//     }
+// return 0;
+
+    //problem5
+        // int numClasses;
+        // double totalCredits = 0, totalGradePoints = 0;
+        // cout << "Enter the number of classes: ";
+        // cin >> numClasses;
+        // for (int i = 1; i <= numClasses; ++i) {
+        //     double credits, marks;
+        //     cout << "Enter credits and marks for class " << i << ": ";
+        //     cin >> credits >> marks;
+        //     double gradePoints = credits * marks;
+        //     totalCredits += credits;
+        //     totalGradePoints += gradePoints;
+        // }
+        // double gpa = totalGradePoints / totalCredits;
+        // cout << "Your total GPA is " << gpa << endl;
+        //
+        // return 0;
+
+
+//problem6
+        // int numStudents, numClasses;
+        // double classTotalGPA = 0;
+        // cout << "Enter the number of students: ";
+        // cin >> numStudents;
+        // for (int student = 1; student <= numStudents; ++student) {
+        //     double totalCredits = 0, totalGradePoints = 0;
+        //     cout << "Enter the number of classes for student " << student << ": ";
+        //     cin >> numClasses;
+        //     for (int cls = 1; cls <= numClasses; ++cls) {
+        //         double credits, marks;
+        //         cout << "Enter credits and marks for class " << cls << ": ";
+        //         cin >> credits >> marks;
+        //         double gradePoints = credits * marks;
+        //         totalCredits += credits;
+        //         totalGradePoints += gradePoints;
+        //     }
+        //     double gpa = totalGradePoints / totalCredits;
+        //     cout << "GPA for student " << student << " is " << gpa << endl;
+        //     classTotalGPA += gpa;
+        // }
+        //
+        // // Calculate the average GPA of the class
+        // double averageGPA = classTotalGPA / numStudents;
+        // cout << "The average GPA of the class is " << averageGPA << endl;
+        //
+        // return 0;
+
+    //problem7
+    // int n;
+    // cin >> n;
+    // for (int i = 0; i < n; i++) {
+    //     for (int j = 0; j < n; j++) {
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //PROBLEM8
+
+
+  //   int rows;
+  //   cout << "Enter the number of rows: ";
+  //   cin >> rows;
+  //
+  //   for (int i = 1; i <= rows; ++i) {
+  //     for (int j = 1; j <= i; ++j) {
+  //       cout << "* ";
+  //     }
+  //     cout << endl;
+  //   }
+  //
+  //   return 0;
+  // }
+
+
+  //problem9
+  // int num;
+  // bool isPrime = true;
+  //
+  // cout << "Enter a positive integer: ";
+  // cin >> num;
+  //
+  // if (num <= 1) {
+  //   isPrime = false;
+  // } else {
+  //   for (int i = 2; i * i <= num; ++i) {
+  //     if (num % i == 0) {
+  //       isPrime = false;
+  //       break;
+  //     }
+  //   }
+  // }
+
+  // if (isPrime)
+  //   cout << num << " is a prime number." << endl;
+  // else
+  //   cout << num << " is not a prime number." << endl;
+  //
+  // return 0;
+
+  //problem10
+    // int n, sum = 0;
+    //
+    // cout << "Enter the value of n: ";
+    // cin >> n;
+    //
+    // for (int i = 1; i <= n; ++i) {
+    //   sum += (i * i); // Add square of i to sum
+    // }
+    //
+    // cout << "Sum of the series (1*1) + (2*2) + ... + (" << n << "*" << n << ") is: " << sum << endl;
+    //
+    // return 0;
+
+  //problem11
+    // int number;
+    // int positiveCount = 0, negativeCount = 0, total = 0;
+    // int count = 0;
+    //
+    // cout << "Enter integers (input ends with 0): " << endl;
+    //
+    // while (true) {
+    //   cin >> number;
+    //
+    //   if (number == 0) {
+    //     break; // End input on 0
+    //   }
+    //
+    //   total += number;
+    //   count++;
+    //
+    //   if (number > 0) {
+    //     positiveCount++;
+    //   } else {
+    //     negativeCount++;
+    //   }
+    // }
+    //
+    // if (count == 0) {
+    //   cout << "No numbers are entered except 0." << endl;
+    // } else {
+    //   double average = static_cast<double>(total) / count;
+    //   cout << "The number of positives is: " << positiveCount << endl;
+    //   cout << "The number of negatives is: " << negativeCount << endl;
+    //   cout << "The total is: " << total << endl;
+    //   cout << "The average is: " << average << endl;
+    // }
+    //
+    // return 0;
+
+  //problem12
+
+  //   int n, digit;
+  //
+  //   cout << "Enter an integer: ";
+  //   cin >> n;
+  //
+  //   cout << "Digits in reverse order: ";
+  //
+  //   // Handle negative numbers
+  // if (n < 0) {
+  //   cout << "-";
+  //   n = -n;
+  // }
+  //
+  // // Extract and print digits in reverse
+  // while (n > 0) {
+  //   digit = n % 10;
+  //   cout << digit;
+  //   n /= 10;
+  // }
+  //
+  // cout << endl;
+  // return 0;
+
+  //problem13
+
+    // int height;
+    //
+    // cout << "Enter the height of the triangle: ";
+    // cin >> height;
+    //
+    // if (height == 0) {
+    //   cout << "Depth is 0." << endl;
+    //   return 0;
+    // }
+    //
+    // for (int i = 1; i <= height; ++i) {
+    //   for (int j = 1; j <= i; ++j) {
+    //     cout << j << " ";
+    //   }
+    //   cout << endl;
+    // }
+    //
+    // return 0;
+
+  //promlem14
+
+    // string binary;
+    // int decimal = 0;
+    //
+    // cout << "Enter a binary number: ";
+    // cin >> binary;
+    //
+    // int length = binary.length();
+    //
+    // for (int i = 0; i < length; ++i) {
+    //   if (binary[length - i - 1] == '1') {
+    //     decimal += pow(2, i);
+    //   } else if (binary[length - i - 1] != '0') {
+    //     cout << "Invalid binary number!" << endl;
+    //     return 1;
+    //   }
+    // }
+    //
+    // cout << "The decimal equivalent is: " << decimal << endl;
+    // return 0;
+
+  }
+
+
+
+
+
